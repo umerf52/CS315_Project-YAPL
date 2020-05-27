@@ -1,0 +1,32 @@
+custom BookStruct {
+    string title
+    string author
+    string subject
+    int book_id
+}
+
+new BookStruct book1
+new BookStruct book2
+
+book1.title = "The Theory of Computation"
+book1.author = "Michael Sipser"
+book1.subject = "Theory of Computation"
+book1.book_id = 45315
+
+book2.title = "Race Against the Machine"
+book2.author = "Andrew McAfee"
+book2.subject = "Digital Technology"
+book2.book_id = 92315
+
+display(book1.title)
+display(book1.author)
+display(book1.subject)
+display(book1.book_id)
+
+display("")
+
+display(book2.title)
+display(book2.author)
+display(book2.subject)
+display(book2.book_id)
+display(book2.publisher)

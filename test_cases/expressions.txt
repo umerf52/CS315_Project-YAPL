@@ -1,0 +1,13 @@
+string mystring = ("theory" + " of ") + "automata"
+int a = 1
+int b = 4
+b++
+display(mystring)
+double c = (1.5+0.5+2)
+double determinant = b ^ 2 - 4 * a * c
+double quadratic_root1 = (-b + determinant^(1/2)) / ( 2.0*a )
+display(quadratic_root1)
+bool d = False
+display(NOT True == (NOT (NOT d)) AND (True != 0))
+display(4 + "A")
+display("Hi")

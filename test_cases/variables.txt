@@ -1,0 +1,11 @@
+string a = "start"
+int b = 1
+double c = 2.5
+bool d = False
+int e = 0
+string f = "end"
+display(a)
+display(b,c)
+display(d,e)
+display(f)
+int e = 5
